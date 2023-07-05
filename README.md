@@ -80,8 +80,7 @@ code bellow.
     "mkparents": true,
     "scrollmargin": 20,
     "softwrap": true,
-    "statusformatl": "$(status.branch)  $(filename) 
-$(modified)($(line),$(col)) $(status.paste)|ft:$(opt:filetype)|
+    "statusformatl": "$(status.branch) $(filename) |$(modified)($(line),$(col))| $(status.paste)|ft:$(opt:filetype)|
 $(opt:fileformat) | $(opt:encoding) [$(status.size)] [lines:
 $(status.lines)]",
     "statusformatr": "",
@@ -94,6 +93,7 @@ $(status.lines)]",
 ```
 Save the file, open micro again
 and you will see some cool changes..
+<br>
 *Note: you're free to edit anything included here,
-you read more about micro options in micro by pressing Ctrl-e and typing
+you can read more about micro options in micro by pressing Ctrl-e and typing
 `help options` or on thier official site.
