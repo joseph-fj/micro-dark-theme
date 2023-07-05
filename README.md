@@ -2,7 +2,8 @@
 If you're a Micro editor user, you may
 find that its built-in colorschemes don't fullfil
 your syntax highlighting desires.. so I recommend you
-to try this dark theme which I have made using `.micro` file 
+to try this dark theme which I have made using `.micro` files
+that is provided by micro editor.
 ## Setup
 First, navigate to ~/.config/micro/ directory and create 
 `colorschemes` directory if it's not created yet.
@@ -62,3 +63,37 @@ color-link cursor-line "#44475A,#F8F8F2"
 color-link color-column "#FFFFFF"
 color-link type.extended "default"
 ```
+Now you have done the important part,
+open micro again and press `Ctrl-e` and type the following
+`set colorscheme darkTheme.micro`.
+You must write the same name of the file you created in colorschemes dir.
+# Configuration 
+In ~/.config/micro/ directory there is file named
+`settings.json` open it and add what you prefer from the
+code bellow.
+```json
+{
+    "basename": true,
+    "colorscheme": "mytheme",
+    "fileformat": "dos",
+    "hlsearch": true,
+    "mkparents": true,
+    "scrollmargin": 20,
+    "softwrap": true,
+    "statusformatl": "$(status.branch)  $(filename) 
+$(modified)($(line),$(col)) $(status.paste)|ft:$(opt:filetype)|
+$(opt:fileformat) | $(opt:encoding) [$(status.size)] [lines:
+$(status.lines)]",
+    "statusformatr": "",
+    "sucmd": "doas",
+    "tabhighlight": true,
+    "tabsize": 80,
+    "wordwrap": true,
+    "xterm": true
+}
+```
+Save the file, open micro again
+and you will see some cool changes..
+*Note: you're free to edit anything included here,
+you read more about micro options in micro by pressing Ctrl-e and typing
+`help options` or on thier official site.
