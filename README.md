@@ -74,7 +74,7 @@ code bellow.
 ```json
 {
     "basename": true,
-    "colorscheme": "mytheme",
+    "colorscheme": "darkTheme",
     "fileformat": "dos",
     "hlsearch": true,
     "mkparents": true,
