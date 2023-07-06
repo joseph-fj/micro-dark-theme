@@ -68,7 +68,7 @@ Now you have done the important part,
 open micro again and press `Ctrl-e` and type the following
 `set colorscheme darkTheme.micro`.
 You must write the same name of the file you created in colorschemes dir.
-# Configuration 
+## Configuration 
 In ~/.config/micro/ directory there is file named
 `settings.json` open it and add what you prefer from the
 code bellow.
