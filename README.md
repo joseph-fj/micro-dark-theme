@@ -4,6 +4,7 @@ find that its built-in colorschemes don't fullfil
 your syntax highlighting desires.. so I recommend you
 to try this dark theme which I have made using `.micro` files
 that is provided by micro editor.
+![Screenshot](https://i.stack.imgur.com/TIsKS.png)
 ## Setup
 First, navigate to ~/.config/micro/ directory and create 
 `colorschemes` directory if it's not created yet.
