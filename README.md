@@ -3,7 +3,7 @@ If you're a Micro editor user, you may
 find that its built-in colorschemes don't fullfil
 your syntax highlighting desires.. so I recommend you
 to try this dark theme which I have made using `.micro` files
-that is provided by micro editor.
+that are provided by micro editor.
 ![Screenshot](https://i.stack.imgur.com/TIsKS.png)
 ## Setup
 First, navigate to ~/.config/micro/ directory and create 
@@ -65,7 +65,7 @@ color-link color-column "#FFFFFF"
 color-link type.extended "default"
 ```
 Now you have done the important part,
-open micro again and press `Ctrl-e` and type the following
+open micro again and press `Ctrl-e` and type the following: <br> 
 `set colorscheme darkTheme.micro`.
 You must write the same name of the file you created in colorschemes dir.
 ## Configuration 
@@ -95,6 +95,6 @@ $(status.lines)]",
 Save the file, open micro again
 and you will see some cool changes..
 <br>
-*Note: you're free to edit anything included here,
-you can read more about micro options in micro by pressing Ctrl-e and typing
+*Note: you're free to edit anything included here, you may need to add icons for `statusformatl` property..
+You can read more about micro options in micro by pressing Ctrl-e and typing
 `help options` or on thier official site.
