@@ -1,7 +1,7 @@
 # Micro dark-theme
-If you're a Micro editor user, you may
+If you're a Micro editor user, and you 
 find that its built-in colorschemes don't fullfil
-your syntax highlighting desires.. so I recommend you
+your syntax highlighting desires.. I recommend you
 to try this dark theme which I have made using `.micro` files
 that are provided by micro editor.
 ![Screenshot](https://i.stack.imgur.com/TIsKS.png)
